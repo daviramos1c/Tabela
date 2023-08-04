@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #5c5c5c;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+td {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.num {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
